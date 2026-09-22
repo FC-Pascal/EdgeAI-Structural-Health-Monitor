@@ -1,0 +1,27 @@
+/*
+ * File: predict_fault_terminate.c
+ *
+ * MATLAB Coder version            : 24.1
+ * C/C++ source code generated on  : 22-Sep-2026 03:23:45
+ */
+
+/* Include Files */
+#include "predict_fault_terminate.h"
+#include "predict_fault_data.h"
+#include "rt_nonfinite.h"
+
+/* Function Definitions */
+/*
+ * Arguments    : void
+ * Return Type  : void
+ */
+void predict_fault_terminate(void)
+{
+  isInitialized_predict_fault = false;
+}
+
+/*
+ * File trailer for predict_fault_terminate.c
+ *
+ * [EOF]
+ */

@@ -19,3 +19,13 @@ This project utilizes **Model-Based Design (MBD)** to bridge the gap between hig
 1. **Signal Processing:** Raw vibration signals are windowed, with time-domain and frequency-domain (FFT) features extracted to reduce computational load on the edge device.
 2. **Model Training:** A lightweight classification model is trained to distinguish between healthy and faulty operational states.
 3. **Code Generation:** The prediction function is compiled into standalone C code, proving software readiness for MCU deployment.
+
+
+## Results
+
+**100% Validation Accuracy on Edge Model:**
+![Confusion Matrix](docs/confusion_matrix.png)
+
+**Generated Standalone C-Code (ANSI C89/90 Standard for ARM/ESP32):**
+![C Source Code Snippet](docs/c_source_code.png)
+![C Header Code Snippet](docs/c_header_code.png)
