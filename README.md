@@ -29,3 +29,7 @@ This project utilizes **Model-Based Design (MBD)** to bridge the gap between hig
 **Generated Standalone C-Code (ANSI C89/90 Standard for ARM/ESP32):**
 ![C Source Code Snippet](docs/c_source_code.png)
 ![C Header Code Snippet](docs/c_header_code.png)
+
+**Feature Separability (Why a Lightweight Model Works):**
+By extracting Time-Domain (RMS, Kurtosis) and Frequency-Domain features, the Normal and Faulty vibration states become linearly separable. This eliminates the need for heavy Deep Learning, allowing a highly efficient Decision Tree to achieve 100% accuracy on the Edge.
+![Feature Scatter Plot](docs/scatter_plot.png)
