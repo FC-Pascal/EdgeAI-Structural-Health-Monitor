@@ -1,3 +1,8 @@
+### 📄 [**Read the full technical report here**](https://fc-pascal.github.io/EdgeAI-Structural-Health-Monitor/Oloore_Issa_Abayomi_Edge_AI_SHM_Report.pdf)
+
+---
+
+
 # Ultra-Low-Power Edge AI for Structural Health Monitoring
 
 ## Overview
